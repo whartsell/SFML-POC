@@ -497,11 +497,12 @@
 	<utility>
 	<vector>
 
-1488135378 source:c:\users\whartsell\documents\github\sfml-poc\main.cpp
+1488145506 source:c:\users\whartsell\documents\github\sfml-poc\main.cpp
 	<SFML/Graphics.hpp>
 	<SFML/Network.hpp>
 	<iostream>
 	"json.hpp"
+	"ASI.h"
 
 1488135378 c:\users\whartsell\documents\github\sfml-poc\json.hpp
 	<algorithm>
@@ -531,4 +532,10 @@
 	<type_traits>
 	<utility>
 	<vector>
+
+1488145354 source:c:\users\whartsell\documents\github\sfml-poc\src\asi.cpp
+	"ASI.h"
+
+1488145354 c:\users\whartsell\documents\github\sfml-poc\include\asi.h
+	<SFML/Graphics.hpp>
 
