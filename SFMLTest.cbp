@@ -65,14 +65,14 @@
 		</Linker>
 		<Unit filename="include/ASI.h" />
 		<Unit filename="include/DCSInterface.h" />
-		<Unit filename="json.hpp" />
-		<Unit filename="main.cpp" />
+		<Unit filename="include/json.hpp" />
 		<Unit filename="resources/Anemometer.png" />
 		<Unit filename="resources/CapNeedleAnemo.png" />
 		<Unit filename="resources/RedNeedleAnemo.png" />
 		<Unit filename="resources/WhiteNeedleAnemo.png" />
 		<Unit filename="src/ASI.cpp" />
 		<Unit filename="src/DCSInterface.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
