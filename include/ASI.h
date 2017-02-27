@@ -1,6 +1,7 @@
 #ifndef ASI_H
 #define ASI_H
 #include <SFML/Graphics.hpp>
+#include <vector>
 
 
 class ASI
@@ -10,6 +11,7 @@ class ASI
         virtual ~ASI();
         void update();
         void draw(sf::RenderWindow& windowRef);
+        std::vector<int16_t> keys;
 
     protected:
 

@@ -533,9 +533,54 @@
 	<utility>
 	<vector>
 
-1488145354 source:c:\users\whartsell\documents\github\sfml-poc\src\asi.cpp
+1488170529 source:c:\users\whartsell\documents\github\sfml-poc\src\asi.cpp
 	"ASI.h"
 
-1488145354 c:\users\whartsell\documents\github\sfml-poc\include\asi.h
+1488170475 c:\users\whartsell\documents\github\sfml-poc\include\asi.h
 	<SFML/Graphics.hpp>
+	<vector>
+
+1488171092 source:c:\users\whartsell\documents\github\sfml-poc\src\dcsinterface.cpp
+	"DCSInterface.h"
+	<iostream>
+
+1488171092 c:\users\whartsell\documents\github\sfml-poc\include\dcsinterface.h
+	<SFML/Network.hpp>
+	"json.hpp"
+
+1488135378 c:\users\whartsell\documents\github\sfml-poc\include\json.hpp
+	<algorithm>
+	<array>
+	<cassert>
+	<cctype>
+	<ciso646>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdlib>
+	<cstring>
+	<forward_list>
+	<functional>
+	<initializer_list>
+	<iomanip>
+	<iostream>
+	<iterator>
+	<limits>
+	<locale>
+	<map>
+	<memory>
+	<numeric>
+	<sstream>
+	<stdexcept>
+	<string>
+	<type_traits>
+	<utility>
+	<vector>
+
+1488145506 source:c:\users\whartsell\documents\github\sfml-poc\src\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Network.hpp>
+	<iostream>
+	"json.hpp"
+	"ASI.h"
 

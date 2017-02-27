@@ -10,6 +10,9 @@ ASI::ASI()
     needleSprite.setPosition(sf::Vector2f(200,200));
     capSprite.setTexture(cap);
     rotation = 0;
+    keys = {48,//asi dial
+            49,//asi window
+            };
 }
 
 ASI::~ASI()

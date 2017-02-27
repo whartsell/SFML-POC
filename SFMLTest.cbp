@@ -14,7 +14,20 @@
 				<Compiler>
 					<Add option="-std=c++11" />
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-network-s-d" />
+					<Add library="sfml-system-s-d" />
+					<Add library="opengl32" />
+					<Add library="freetype" />
+					<Add library="jpeg" />
+					<Add library="winmm" />
+					<Add library="gdi32" />
+					<Add library="ws2_32" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/SFMLTest" prefix_auto="1" extension_auto="1" />
@@ -24,30 +37,42 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add option="-std=c++11" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add library="sfml-graphics-s" />
+					<Add library="sfml-window-s" />
+					<Add library="sfml-network-s" />
+					<Add library="sfml-system-s" />
+					<Add library="opengl32" />
+					<Add library="freetype" />
+					<Add library="jpeg" />
+					<Add library="winmm" />
+					<Add library="gdi32" />
+					<Add library="ws2_32" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-std=c++11" />
+			<Add option="-DSFML_STATIC" />
 			<Add directory="C:/Users/whartsell/Documents/libs/SFML-2.4.2/include" />
 		</Compiler>
 		<Linker>
-			<Add library="sfml-graphics" />
-			<Add library="sfml-window" />
-			<Add library="sfml-network" />
-			<Add library="sfml-system" />
 			<Add directory="C:/Users/whartsell/Documents/libs/SFML-2.4.2/lib" />
 		</Linker>
+		<Unit filename="include/ASI.h" />
+		<Unit filename="include/DCSInterface.h" />
 		<Unit filename="json.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="resources/Anemometer.png" />
 		<Unit filename="resources/CapNeedleAnemo.png" />
 		<Unit filename="resources/RedNeedleAnemo.png" />
 		<Unit filename="resources/WhiteNeedleAnemo.png" />
+		<Unit filename="src/ASI.cpp" />
+		<Unit filename="src/DCSInterface.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
